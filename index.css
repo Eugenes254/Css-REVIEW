@@ -1,0 +1,52 @@
+body {
+    background-color: blue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+@media (max-width: 154px) {
+    body {
+        background-color: red;
+
+    }
+
+    h1 {
+        font-size: 0.2rem;
+    }
+}
+
+@media (max-width: 496px) {
+    body {
+        background-color: red;
+
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 160px) {
+    body {
+        background-color: rgb(39, 207, 193);
+
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 132px) {
+    body {
+        background-color: rgb(196, 214, 213);
+
+    }
+
+    h1 {
+        font-size: 0.8rem;
+    }
+}
